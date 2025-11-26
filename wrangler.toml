@@ -1,0 +1,11 @@
+name = "amrus-api"
+main = "index.js"
+compatibility_date = "2025-01-01"
+
+[vars]
+# Variables de entorno públicas (si las hubiera) o defaults
+# Las sensibles como SUPABASE_DB_URL y JWT_SECRET se deben poner con `wrangler secret put`
+# Pero para desarrollo local, puedes crear un archivo .dev.vars (no commitear)
+
+[observability]
+enabled = true
